@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups using a Mac OS. <br />
 
 
 <h2>Video Demonstration</h2>
@@ -22,11 +22,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
+- Mac Os (user)
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
+- Create Resource Group with 2 Virtual Machines, Windows 10 VM, Linux (Ubuntu) VM, on the same Virtual Network (Vnet) and Subnet
+- Connect to Windows VM using remote desktop (download Microsoft Remote Desktop on Mac) and dowload Wireshark
 - Step 3
 - Step 4
 
