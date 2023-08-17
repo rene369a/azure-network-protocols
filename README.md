@@ -27,9 +27,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Create Resource Group with 2 Virtual Machines, Windows 10 VM, Linux (Ubuntu) VM, on the same Virtual Network (Vnet) and Subnet
-- Connect to Windows VM using remote desktop (download Microsoft Remote Desktop on Mac) and dowload Wireshark
-- Step 3
-- Step 4
+- Connect to Windows VM using remote desktop (download Microsoft Remote Desktop on Mac) and dowload/install Wireshark
+- Open Wireshark, filter for ICMP traffic only, retreive Linux VM private IP and ping from Windows VM and observe ping requests
+- Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 
 <h2>Actions and Observations</h2>
 
