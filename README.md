@@ -48,12 +48,16 @@ First, create one Resource Group for both Virtual Machines and take note of the 
 <p>
 Search for Virtual Machines and let' start by creating our first VM, a Windows 10 VM and name it VM1.
 </p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-17 at 6 16 03 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/77bf8177-8b2d-4b79-9630-e78f1d8d0dce">
+<img width="1670" alt="Screenshot 2023-08-17 at 6 17 21 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/002c0412-b493-49d3-a4fb-ce6a5c249254">
+</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="Screenshot 2023-08-17 at 6 22 41 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/9874c653-2bdf-4c64-98b0-47cea9e76fef">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On the Networking tab, take note of your Virtual Network (Vnet) as both VM's will be on the same Vnet.
 </p>
 <br />
