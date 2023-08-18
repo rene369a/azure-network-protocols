@@ -60,7 +60,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="1670" alt="Screenshot 2023-08-17 at 6 22 41 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/9874c653-2bdf-4c64-98b0-47cea9e76fef">
 </p>
 <p>
-- On the Networking tab, take note of your Virtual Network (Vnet) as both VM's will be on the same Vnet. Select review+create and then, create after validation passed. Your first VM is ready.
+- On the Networking tab, take note of your Virtual Network (Vnet) as both VM's will be on the same Vnet. Select review+create and then, create after validation passed. VM1 is almost ready.
 </p>
 <p>
   <img width="1670" alt="Screenshot 2023-08-17 at 6 30 50 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/a28a6af2-026c-4507-8328-ca8523cfe917">
