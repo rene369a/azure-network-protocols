@@ -112,13 +112,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="1670" alt="Screenshot 2023-08-18 at 10 18 04 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/078bf511-31c6-4524-90ca-fc993395e217">
 </p>
 <p>
-- After installation we can proceed with opening Wireshark and click on Ethernet to start capturing packets. Then, filter for ICMP, so we can observe the traffic over the network from VM1 to VM2.
+- After installation we can proceed with opening Wireshark and click on Ethernet to start capturing packets. 
 </p>
 <p>
   <img width="1670" alt="Screenshot 2023-08-18 at 10 19 30 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/1897b5eb-fbf3-45a1-af88-0158cf58d90a">
   </p>
 <p>
-- Next, we will try to ping VM2 from VM1 using the private network IP address for VM2. Open Command Promt on VM1 and "ping (private IP address)" and observe network activity through Wireshark.
+- Next, we will filter for ICMP and try to ping VM2 from VM1 using the private network IP address for VM2. Open Command Promt on VM1 and "ping (private IP address)" and observe network activity through Wireshark.
   </p>
 <p>
 <img width="1670" alt="Screenshot 2023-08-18 at 10 21 27 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/f15e84fd-545a-4e38-94e9-0041884d842c">
