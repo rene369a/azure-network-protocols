@@ -81,10 +81,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <p>
-<img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
+<img width="1670" alt="Screenshot 2023-08-17 at 6 50 21 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/65c79e16-b562-4d9a-aced-46e007fd113a">
 </p>
 <p>
-- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
+- Double check that VM2 had the same Virtual Network as VM1, it should, and the subnet automatically applys. Click on review+create and create after validation. Your second VM running Linux is ready.
 </p>
 <br />
 
