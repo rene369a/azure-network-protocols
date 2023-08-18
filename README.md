@@ -75,7 +75,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <img width="1670" alt="Screenshot 2023-08-17 at 6 38 44 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/6817c3ad-27e8-410e-8bc7-ac236bee4b6b">
 </p>
 <p>
-- Make sure to from SSH public Key to password and create a username and password to we can RDP from our Windows 10 VM.
+- Make sure to change from SSH public Key to password and create a username and password to we can RDP from our Windows 10 VM.
 </p>
 <br />
 
