@@ -104,7 +104,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="1670" alt="Screenshot 2023-08-18 at 10 07 41 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/0fe1481b-cbc9-4911-b559-b896e3c82a62">
 </p>
 <p>
-- It will connect to your Windows 10 VM and we can continue after it is done loading. Allow VM1 to access other pc's on the network when prompted and open up the web browser, head to google.com where you will search for Wireshark and dowload/install the program to VM1.
+- It will connect to your Windows 10 VM and we can continue after it is done loading. Allow VM1 to access other pc's on the network when prompted and open up the web browser. Head to google.com where you will search for Wireshark and dowload/install the program to VM1.
 </p>
 <br />
 
