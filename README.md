@@ -140,24 +140,35 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
+<img width="1670" alt="Screenshot 2023-08-18 at 10 57 54 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/3f10f2ce-6dad-4b4f-b856-6a3142b1dc7c">
 </p>
 <p>
-- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
+- Now we can observe SSH traffic over the network by logging into VM2, throught its private IP, using VM1 command prompt. SSH and login to VM2 using username and password. Password will be blank, but you are typing.
 </p>
 <br />
 
 <p>
-<img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
+<img width="1670" alt="Screenshot 2023-08-18 at 11 05 57 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/0d3a40ac-f40b-4732-991a-68c8445c0400">
 </p>
 <p>
-- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
+- Filter DCHP so we can observe our traffic over the network and attempt to issue VM1 a new IP address using ipconfig /renew in the command prompt.
 </p>
 <br />
+
 <p>
-<img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
+<img width="1670" alt="Screenshot 2023-08-18 at 11 10 35 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/acdc196f-1c17-4888-836a-d105e483b19b">
 </p>
 <p>
-- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
+- Let's do the same for DNS and observe the traffic when using nslookup (website) in the command prompt.
 </p>
 <br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 11 14 36 AM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/8d472293-3b57-49e9-acc6-775f127d4e95">
+</p>
+<p>
+- Lastly, we can filter for RDP, tcp.port == 3389, in order to observe our traffic over the network. Since we are using RDP, you can see the non-stop spamming of traffic over the network since it's constantly showing you a live stream from one computer to another. When finished, it is wise to delete your Resource Group and Virtual Machines in Microsoft Azure when you are done so as to not incur costs.
+</p>
+<br />
+
+
