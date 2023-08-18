@@ -38,7 +38,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
 </p>
 <p>
-First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
+- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
 </p>
 <br />
 
@@ -46,18 +46,52 @@ First, create one Resource Group for both Virtual Machines and take note of the 
 <img width="1670" alt="Screenshot 2023-08-17 at 6 12 50 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/7da823ed-7626-47b8-a855-5e77432156c8">
 </p>
 <p>
-Search for Virtual Machines and let' start by creating our first VM, a Windows 10 VM and name it VM1.
+- Search for Virtual Machines and let' start by creating our first VM, a Windows 10 VM and name it VM1. Create a username and password, which we will need to RDP into our VM.
 </p>
 <p>
   <img width="1670" alt="Screenshot 2023-08-17 at 6 16 03 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/77bf8177-8b2d-4b79-9630-e78f1d8d0dce">
 <img width="1670" alt="Screenshot 2023-08-17 at 6 17 21 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/002c0412-b493-49d3-a4fb-ce6a5c249254">
 </p>
+<p>
+- Make sure you check the licensing box before continuing.
 <br />
 
 <p>
 <img width="1670" alt="Screenshot 2023-08-17 at 6 22 41 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/9874c653-2bdf-4c64-98b0-47cea9e76fef">
 </p>
 <p>
-On the Networking tab, take note of your Virtual Network (Vnet) as both VM's will be on the same Vnet.
+- On the Networking tab, take note of your Virtual Network (Vnet) as both VM's will be on the same Vnet. Select review+create and then, create after validation passed. Your first VM is ready.
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-17 at 6 30 50 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/a28a6af2-026c-4507-8328-ca8523cfe917">
+</p>
+<br />
+
+<p>
+- While VM1 is finishing, we can create our second VM running Linux (Ubuntu), instead of Window, in the same Resource group and region.
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-17 at 6 37 41 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/f563db3a-de91-4670-b5b4-26337adfb30a">
+  <img width="1670" alt="Screenshot 2023-08-17 at 6 38 44 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/6817c3ad-27e8-410e-8bc7-ac236bee4b6b">
+</p>
+<p>
+- Make sure to from SSH public Key to password and create a username and password to we can RDP from our Windows 10 VM.
+</p>
+<br />
+
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
+</p>
+<p>
+- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-17 at 6 05 00 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/10b20718-1302-4003-8087-f572ff74480a">
+</p>
+<p>
+- First, create one Resource Group for both Virtual Machines and take note of the region, as both VM's will use the same one.
 </p>
 <br />
