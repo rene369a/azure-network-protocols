@@ -53,7 +53,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="1670" alt="Screenshot 2023-08-17 at 6 17 21 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/002c0412-b493-49d3-a4fb-ce6a5c249254">
 </p>
 <p>
-- Make sure you check the licensing box before continuing.
+- Make sure you check the licensing box before continuing and the standard 2vCPUs is plenty for this exercise.
 <br />
 
 <p>
