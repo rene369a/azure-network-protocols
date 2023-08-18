@@ -68,7 +68,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-- While VM1 is finishing, we can create our second VM running Linux (Ubuntu), instead of Window, in the same Resource group and region.
+- While VM1 is finishing, we can create our second VM running Linux (Ubuntu), instead of Window, in the same Resource group and region. Name it VM2
 </p>
 <p>
   <img width="1670" alt="Screenshot 2023-08-17 at 6 37 41 PM" src="https://github.com/rene369a/azure-network-protocols/assets/142533276/f563db3a-de91-4670-b5b4-26337adfb30a">
