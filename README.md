@@ -30,7 +30,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Connect to Windows VM using remote desktop (download Microsoft Remote Desktop on Mac) and dowload/install Wireshark
 - Open Wireshark, filter for ICMP traffic only, retreive Linux VM private IP and ping from Windows VM and observe ping requests
 - Open Network Security Group for Ubuntu VM and disable incoming (inbound) ICMP traffic, observe ICMP traffic, Re-enable ICMP traffic for NSG your Ubuntu VM is using
-- Filter and observe each, SSH Traffic, DHCP Traffic, DNS Traffic, RDP Traffic
+- Filter and observe traffic for each protocol, SSH, DHCP, DNS, RDP
 
 <h2>Actions and Observations</h2>
 
